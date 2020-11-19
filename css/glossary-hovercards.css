@@ -1,0 +1,87 @@
+.glossary-item-hidden-content {
+	display: none;
+}
+
+.glossary-item-popover {
+	position: absolute;
+	margin: 10px;
+	z-index: 1;
+}
+
+.tippy-tooltip, .glossary-item-inner {
+	padding: 16px 24px;
+	background-color: #FFF;
+	color: #222;
+	border-radius: 4px;
+	box-shadow: 0 1px 10px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,.15);
+	max-width: 300px;
+	text-align: right;
+}
+
+.glossary-item-inner .glossary-item-description a {
+	text-decoration: underline;
+}
+.glossary-item-container {
+	background-color: rgba(230, 230, 230, 0.5);
+	border-radius: 0.1em;
+	border-bottom: 1px solid gray;
+	cursor: help;
+}
+
+.glossary-item-header {
+	display: block;
+	color: #3d596d;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-bottom: 8px;
+}
+
+.glossary-item-description {
+	color: #3d596d;
+	font-size: 14px;
+	font-style: italic;
+	word-break: break-word;
+}
+
+.glossary-item-popover {
+	padding: 0;
+}
+
+.tippy-tooltip.light-theme[x-placement^=top] .tippy-arrow {
+    border-top: 8px solid #fff;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent
+}
+
+.tippy-tooltip.light-theme[x-placement^=bottom] .tippy-arrow {
+    border-bottom: 8px solid #fff;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent
+}
+
+.tippy-tooltip.light-theme[x-placement^=left] .tippy-arrow {
+    border-left: 8px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent
+}
+
+.tippy-tooltip.light-theme[x-placement^=right] .tippy-arrow {
+    border-right: 8px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent
+}
+
+.tippy-tooltip.light-theme .tippy-backdrop {
+    background-color: #fff
+}
+
+.tippy-tooltip.light-theme .tippy-roundarrow {
+    fill: #fff
+}
+
+.tippy-tooltip.light-theme[data-animatefill] {
+    background-color: transparent
+}
